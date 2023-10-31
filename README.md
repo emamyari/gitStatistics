@@ -1,3 +1,13 @@
+If you want to execute the statement git log --numstat > testFile.txt within the my-repo folder (outside the .git folder), you can follow these steps:
+Open a terminal or command prompt.
+Navigate to the root directory of your Git repository using the cd command. For example, if your repository is located at C:\my-repo, you would run:
+   `cd C:\my-repo`
+Once you are in the my-repo folder, execute the command git log --numstat > testFile.txt.
+Wait for the command to finish executing. It will generate the testFile.txt file containing the commit history and the number of lines added and removed for each file in each commit.
+You can then use the contents of the testFile.txt file as input for the above programs by replacing the file path 'testFile.txt' with 'testFile.txt' in the respective programs.
+By executing the statement within the my-repo folder, you ensure that the testFile.txt file is generated in the root directory of your Git repository.
+
+--------------------------------------------------------------
 Descriptions per each file : 
 ------------------------------------
 LineAddedHist.py: 
